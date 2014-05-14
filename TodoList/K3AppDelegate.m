@@ -1,21 +1,9 @@
-//
-//  K3AppDelegate.m
-//  TodoList
-//
-//  Created by Kiran on 14/05/14.
-//  Copyright (c) 2014 Kiran. All rights reserved.
-//
-
 #import "K3AppDelegate.h"
 
 @implementation K3AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
 

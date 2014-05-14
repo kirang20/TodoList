@@ -19,6 +19,7 @@
 		8434AEDC19235AB90065DA8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8434AEC419235AB80065DA8E /* UIKit.framework */; };
 		8434AEE419235AB90065DA8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8434AEE219235AB90065DA8E /* InfoPlist.strings */; };
 		8434AEE619235AB90065DA8E /* TodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434AEE519235AB90065DA8E /* TodoListTests.m */; };
+		8434AEF019236F4F0065DA8E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434AEEF19236F4F0065DA8E /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8434AEE119235AB90065DA8E /* TodoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TodoListTests-Info.plist"; sourceTree = "<group>"; };
 		8434AEE319235AB90065DA8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8434AEE519235AB90065DA8E /* TodoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoListTests.m; sourceTree = "<group>"; };
+		8434AEEF19236F4F0065DA8E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				8434AECF19235AB90065DA8E /* K3AppDelegate.h */,
 				8434AED019235AB90065DA8E /* K3AppDelegate.m */,
+				8434AEEF19236F4F0065DA8E /* Storyboard.storyboard */,
 				8434AED219235AB90065DA8E /* Images.xcassets */,
 				8434AEC719235AB90065DA8E /* Supporting Files */,
 			);
@@ -222,6 +225,7 @@
 			files = (
 				8434AECB19235AB90065DA8E /* InfoPlist.strings in Resources */,
 				8434AED319235AB90065DA8E /* Images.xcassets in Resources */,
+				8434AEF019236F4F0065DA8E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

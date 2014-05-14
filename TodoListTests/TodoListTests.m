@@ -1,11 +1,3 @@
-//
-//  TodoListTests.m
-//  TodoListTests
-//
-//  Created by Kiran on 14/05/14.
-//  Copyright (c) 2014 Kiran. All rights reserved.
-//
-
 #import <XCTest/XCTest.h>
 
 @interface TodoListTests : XCTestCase
