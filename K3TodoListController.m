@@ -66,10 +66,26 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     K3TodoItem *todo = [self.todoItems objectAtIndex:indexPath.row];
     cell.textLabel.text = todo.name;
-    
+    if(todo.completed)
+    {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
+    else
+    {
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
     return cell;
 }
 
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    K3TodoItem *tappedTodo = [self.todoItems objectAtIndex:indexPath.row];
+    tappedTodo.completed = !tappedTodo.completed;
+    
+    [tableView reloadRowsAtIndexPaths:@[indexPath]
+                     withRowAnimation:UITableViewRowAnimationNone];;
+}
 
 /*
 // Override to support conditional editing of the table view.
