@@ -20,6 +20,9 @@
 		8434AEE419235AB90065DA8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8434AEE219235AB90065DA8E /* InfoPlist.strings */; };
 		8434AEE619235AB90065DA8E /* TodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434AEE519235AB90065DA8E /* TodoListTests.m */; };
 		8434AEF019236F4F0065DA8E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8434AEEF19236F4F0065DA8E /* Storyboard.storyboard */; };
+		84510E62192C6F2000821A01 /* K3TodoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84510E61192C6F2000821A01 /* K3TodoItem.m */; };
+		84BF62F2192A011F0070C9B3 /* K3AddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF62F1192A011F0070C9B3 /* K3AddToDoItemViewController.m */; };
+		84BF62FB192A02F10070C9B3 /* K3TodoListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BF62FA192A02F10070C9B3 /* K3TodoListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		8434AEE319235AB90065DA8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8434AEE519235AB90065DA8E /* TodoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoListTests.m; sourceTree = "<group>"; };
 		8434AEEF19236F4F0065DA8E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		84510E60192C6F2000821A01 /* K3TodoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K3TodoItem.h; sourceTree = "<group>"; };
+		84510E61192C6F2000821A01 /* K3TodoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K3TodoItem.m; sourceTree = "<group>"; };
+		84BF62F0192A011F0070C9B3 /* K3AddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K3AddToDoItemViewController.h; sourceTree = "<group>"; };
+		84BF62F1192A011F0070C9B3 /* K3AddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K3AddToDoItemViewController.m; sourceTree = "<group>"; };
+		84BF62F9192A02F10070C9B3 /* K3TodoListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = K3TodoListController.h; sourceTree = "<group>"; };
+		84BF62FA192A02F10070C9B3 /* K3TodoListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = K3TodoListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,10 @@
 		8434AEB419235AB80065DA8E = {
 			isa = PBXGroup;
 			children = (
+				84BF62F9192A02F10070C9B3 /* K3TodoListController.h */,
+				84BF62FA192A02F10070C9B3 /* K3TodoListController.m */,
+				84BF62F0192A011F0070C9B3 /* K3AddToDoItemViewController.h */,
+				84BF62F1192A011F0070C9B3 /* K3AddToDoItemViewController.m */,
 				8434AEC619235AB90065DA8E /* TodoList */,
 				8434AEDF19235AB90065DA8E /* TodoListTests */,
 				8434AEBF19235AB80065DA8E /* Frameworks */,
@@ -112,6 +125,8 @@
 				8434AECF19235AB90065DA8E /* K3AppDelegate.h */,
 				8434AED019235AB90065DA8E /* K3AppDelegate.m */,
 				8434AEEF19236F4F0065DA8E /* Storyboard.storyboard */,
+				84510E60192C6F2000821A01 /* K3TodoItem.h */,
+				84510E61192C6F2000821A01 /* K3TodoItem.m */,
 				8434AED219235AB90065DA8E /* Images.xcassets */,
 				8434AEC719235AB90065DA8E /* Supporting Files */,
 			);
@@ -244,8 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BF62F2192A011F0070C9B3 /* K3AddToDoItemViewController.m in Sources */,
+				84BF62FB192A02F10070C9B3 /* K3TodoListController.m in Sources */,
 				8434AED119235AB90065DA8E /* K3AppDelegate.m in Sources */,
 				8434AECD19235AB90065DA8E /* main.m in Sources */,
+				84510E62192C6F2000821A01 /* K3TodoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +460,7 @@
 				8434AEEB19235AB90065DA8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8434AEEC19235AB90065DA8E /* Build configuration list for PBXNativeTarget "TodoListTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +469,7 @@
 				8434AEEE19235AB90065DA8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
