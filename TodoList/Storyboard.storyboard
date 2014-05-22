@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.79392408288043481" green="0.79392408288043481" blue="0.79392408288043481" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" keyboardAppearance="light"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="light"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -43,6 +43,11 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="cancelButton" destination="cna-ry-Kcj" id="UNA-rQ-ZMJ"/>
+                        <outlet property="doneButton" destination="Z0o-rI-cwM" id="11c-kF-XqY"/>
+                        <outlet property="textField" destination="L8p-0O-8Uc" id="ZI4-x7-wr7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t4J-uD-AaV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="DbV-vS-ohJ" userLabel="Exit" sceneMemberID="exit"/>

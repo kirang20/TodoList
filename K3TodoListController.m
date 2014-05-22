@@ -1,5 +1,6 @@
 #import "K3TodoListController.h"
 #import "K3TodoItem.h"
+#import "K3AddToDoItemViewController.h"
 
 @interface K3TodoListController ()
 
@@ -57,6 +58,12 @@
 
 - (IBAction)unwindToList:(UIStoryboardSegue *)segue
 {
+    K3AddToDoItemViewController *source = [segue sourceViewController];
+    if(source.toDoItem != Nil)
+    {
+        [self.todoItems addObject:source.toDoItem];
+        [self.tableView reloadData];
+    }
 }
 
 
